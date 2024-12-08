@@ -1,10 +1,12 @@
 import "./App.css";
-import Default from "./components/Default";
+// import Default from "./components/Default";
+import SwiperNavigation from "./components/SwiperNavigation";
 
 function App() {
   return (
     <>
-      <Default />
+      {/* <Default /> */}
+      <SwiperNavigation />
     </>
   );
 }
