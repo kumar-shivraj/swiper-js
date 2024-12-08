@@ -1,12 +1,14 @@
 import "./App.css";
+import SwiperPagination from "./components/SwiperPagination";
 // import Default from "./components/Default";
-import SwiperNavigation from "./components/SwiperNavigation";
+// import SwiperNavigation from "./components/SwiperNavigation";
 
 function App() {
   return (
     <>
       {/* <Default /> */}
-      <SwiperNavigation />
+      {/* <SwiperNavigation /> */}
+      <SwiperPagination />
     </>
   );
 }
